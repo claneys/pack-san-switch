@@ -1,0 +1,25 @@
+{
+        "name": "san-switch",
+        "types": ["pack"],
+        "version": "1.4",
+        "homepage": "https://github.com/shinken-monitoring/pack-san-switch",
+        "author": "Forlot Romain",
+        "description": "This plugin checks sensors (psu, temperature, fans et al) and overall health of SAN switches that understand the Fibre Alliance MIB.",
+        "contributors": [
+          {
+                "name": "Forlot Romain",
+                "email": "rforlot@yahoo.com"
+          }
+        ],
+        "repository": "https://github.com/shinken-monitoring/pack-san-switch",
+        "keywords": [
+          "pack",
+	  "storage",
+	  "ibm"
+          
+        ],
+        "dependencies": {
+          "shinken": ">=1.4"
+        },
+        "license": "AGPL"
+}
